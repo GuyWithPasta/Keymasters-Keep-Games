@@ -93,9 +93,7 @@ class ClairObscurExpedition33Game(Game):
             ),
             GameObjectiveTemplate(
                 label="Reach Ancient Sanctuary",
-                data={
-                    "FWWEAPONS": (self.area_2_weapons, 3),
-                },
+                data=dict(),
             ),
             GameObjectiveTemplate(
                 label="In Ancient Sanctuary, find and master the following Pictos: ASPICTOS",
