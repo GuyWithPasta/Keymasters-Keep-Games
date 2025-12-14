@@ -76,7 +76,8 @@ class ClairObscurExpedition33Game(Game):
             ),
             GameObjectiveTemplate(
                 label="In Flying Waters, dual Noco, then buy out his secret shop",
-                weight=50000,
+                data=dict(),
+                weight=10,
             ),
             GameObjectiveTemplate(
                 label="In Flying Waters, find the following weapons: FWWEAPONS",
