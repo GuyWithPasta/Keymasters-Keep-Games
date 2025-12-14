@@ -15,12 +15,12 @@ from ..enums import KeymastersKeepGamePlatforms
 
 # Option Dataclass
 @dataclass
-class ClairObscurExpedition33BacklogArchipelagoOptions:
+class ClairObscurExpedition33ArchipelagoOptions:
     pass
 
 # Main Class
-class ClairObscurExpedition33BacklogGame(Game):
-    name = "Clair Obscur: Expedition 33 Backlog"
+class ClairObscurExpedition33Game(Game):
+    name = "Clair Obscur: Expedition 33"
     platform = KeymastersKeepGamePlatforms.PC
 
     platforms_other = [
@@ -30,7 +30,7 @@ class ClairObscurExpedition33BacklogGame(Game):
 
     is_adult_only_or_unrated = False
 
-    options_cls = ClairObscurExpedition33BacklogArchipelagoOptions
+    options_cls = ClairObscurExpedition33ArchipelagoOptions
 
 
     # Main Objectives
