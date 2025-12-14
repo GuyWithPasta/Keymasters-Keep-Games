@@ -45,6 +45,7 @@ class ClairObscurExpedition33Game(Game):
             ),
             GameObjectiveTemplate(
                 label="Before the Expedition commences, spend all three Festival Tokens",
+                data=dict(),
                 weight=10,
             ),
             GameObjectiveTemplate(
@@ -61,6 +62,7 @@ class ClairObscurExpedition33Game(Game):
             ),
             GameObjectiveTemplate(
                 label="In Spring Meadows, assist Jar, the first White Nevron",
+                data=dict(),
             ),
             GameObjectiveTemplate(
                 label="In Spring Meadows, Defeat Eveque",
@@ -85,9 +87,11 @@ class ClairObscurExpedition33Game(Game):
             ),
             GameObjectiveTemplate(
                 label="In Flying Waters, assist Demineur Nevron, the second White Nevron",
+                data=dict(),
             ),
             GameObjectiveTemplate(
                 label="In Flying Waters, Defeat Goblu",
+                data=dict(),
             ),
             GameObjectiveTemplate(
                 label="Reach Ancient Sanctuary",
@@ -113,21 +117,27 @@ class ClairObscurExpedition33Game(Game):
             ),
             GameObjectiveTemplate(
                 label="In Ancient Sanctuary, Defeat Ultimate Sakapatate",
+                data=dict(),
             ),
             GameObjectiveTemplate(
                 label="Gustave: Perform an Overcharge with 10 Charge",
+                data=dict(),
             ),
             GameObjectiveTemplate(
                 label="Lune: Use Immolation on a Marked foe",
+                data=dict(),
             ),
             GameObjectiveTemplate(
                 label="Lune: Consume Stains two turns in a row",
+                data=dict(),
             ),
             GameObjectiveTemplate(
                 label="Maelle: Use Percée on a Marked foe",
+                data=dict(),
             ),
             GameObjectiveTemplate(
                 label="Maelle: Use Spark while in Offensive Stance",
+                data=dict(),
             ),
             GameObjectiveTemplate(
                 label="In ZONE, defeat the Mime",
