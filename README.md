@@ -9,3 +9,4 @@ None
 # In production
 
 - Kirby Air Riders
+- Metroid Prime 4: Beyond
