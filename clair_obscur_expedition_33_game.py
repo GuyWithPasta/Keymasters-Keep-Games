@@ -64,9 +64,7 @@ class ClairObscurExpedition33Game(Game):
             ),
             GameObjectiveTemplate(
                 label="In Spring Meadows, Defeat Eveque",
-            ),
-            GameObjectiveTemplate(
-                label="Reach Flying Waters",
+                data=dict(),
             ),
             GameObjectiveTemplate(
                 label="In Flying Waters, find and master the following Pictos: FWPICTOS",
