@@ -23,7 +23,10 @@ class ClairObscurExpedition33BacklogGame(Game):
     name = "Clair Obscur: Expedition 33 Backlog"
     platform = KeymastersKeepGamePlatforms.PC
 
-    platforms_other = None
+    platforms_other = [
+        KeymastersKeepGamePlatforms.PS5,
+        KeymastersKeepGamePlatforms.XSX,
+    ]
 
     is_adult_only_or_unrated = False
 
