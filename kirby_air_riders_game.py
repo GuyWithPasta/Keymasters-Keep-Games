@@ -167,19 +167,13 @@ class KirbyAirRidersGame(Game):
             "Taranza",
             "Noir Dedede",
         ]
-<<<<<<< Updated upstream
-=======
-    
->>>>>>> Stashed changes
+
     @staticmethod    
     def riders_road_trip(self) -> List[str]:
         riders: List[str] = self.riders()
         riders.remove("Noir Dedede")
         return riders
-<<<<<<< Updated upstream
-=======
-    
->>>>>>> Stashed changes
+
     @staticmethod
     def machine(self) -> List[str]:
         return [
