@@ -71,7 +71,7 @@ class ClairObscurExpedition33Game(Game):
             GameObjectiveTemplate(
                 label="In Flying Waters, find and master the following Pictos: FWPICTOS",
                 data={
-                    "FWPCITOS": (self.area_2_pictos, 5),
+                    "FWPICTOS": (self.area_2_pictos, 5),
                 },
             ),
             GameObjectiveTemplate(
