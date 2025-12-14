@@ -41,11 +41,11 @@ class ClairObscurExpedition33Game(Game):
                 data={
                     "PROLOGUE1": (self.prologue, 5),
                 },
-                weight=50000,
+                weight=10,
             ),
             GameObjectiveTemplate(
                 label="Before the Expedition commences, spend all three Festival Tokens",
-                weight=50000,
+                weight=10,
             ),
             GameObjectiveTemplate(
                 label="In Spring Meadows, find and master the following Pictos: SMPICTOS",
