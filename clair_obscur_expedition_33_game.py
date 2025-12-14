@@ -46,7 +46,7 @@ class ClairObscurExpedition33Game(Game):
             GameObjectiveTemplate(
                 label="Before the Expedition commences, spend all three Festival Tokens",
                 data=dict(),
-                weight=10,
+                weight=50000,
             ),
             GameObjectiveTemplate(
                 label="In Spring Meadows, find and master the following Pictos: SMPICTOS",
