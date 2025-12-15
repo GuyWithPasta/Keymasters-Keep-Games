@@ -147,6 +147,8 @@ class ClairObscurExpedition33Game(Game):
             "Duel 2 women",
             "Obtain a red uniform",
         ]
+    
+    @staticmethod
     def area_1_pictos() -> List[str]:
         return [
             "Dodger",
@@ -157,6 +159,8 @@ class ClairObscurExpedition33Game(Game):
             "Cleansing Tint",
             "Empowering Attack",
         ]
+    
+    @staticmethod
     def area_2_pictos() -> List[str]:
         return [
             "SOS Shell",
@@ -169,6 +173,8 @@ class ClairObscurExpedition33Game(Game):
             "Energizing Break",
             "Versatile",
         ]
+    
+    @staticmethod
     def area_3_pictos() -> List[str]:
         return [
             "Energizing Jump",
@@ -178,11 +184,15 @@ class ClairObscurExpedition33Game(Game):
             "Breaker",
             "Stun Boost",
         ]
+    
+    @staticmethod
     def area_1_weapons() -> List[str]:
         return [
             "Lanceram",
             "Lighterim",
         ]
+    
+    @staticmethod
     def area_2_weapons() -> List[str]:
         return [
             "Brulerum",
@@ -191,17 +201,23 @@ class ClairObscurExpedition33Game(Game):
             "Abysseram",
             "Troubadim",
         ]
+    
+    @staticmethod
     def area_3_weapons() -> List[str]:
         return [
             "Sakaram",
             "Trebuchim",
         ]
+    
+    @staticmethod
     def zones() -> List[str]:
         return [
             "Spring Meadows",
             "Flying Waters",
             "Ancient Sanctuary",
         ]
+    
+    @staticmethod
     def bosses() -> List[str]:
         return [
             "Eveque",
