@@ -31,6 +31,7 @@ class KirbyAirRidersGame(Game):
         return [
             GameObjectiveTemplate(
                 label="Complete all Trials Online! (Real people count as Level 10 CPUs)",
+                data=dict()
             ),
         ]
 
