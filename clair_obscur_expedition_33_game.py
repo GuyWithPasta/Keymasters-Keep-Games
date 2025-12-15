@@ -41,11 +41,12 @@ class ClairObscurExpedition33Game(Game):
                 data={
                     "PROLOGUE1": (self.prologue, 5),
                 },
-                weight=50000,
+                weight=1,
             ),
             GameObjectiveTemplate(
                 label="Before the Expedition commences, spend all three Festival Tokens",
-                weight=50000,
+                data=dict(),
+                weight=1,
             ),
             GameObjectiveTemplate(
                 label="In Spring Meadows, find and master the following Pictos: SMPICTOS",
@@ -61,22 +62,22 @@ class ClairObscurExpedition33Game(Game):
             ),
             GameObjectiveTemplate(
                 label="In Spring Meadows, assist Jar, the first White Nevron",
+                data=dict(),
             ),
             GameObjectiveTemplate(
                 label="In Spring Meadows, Defeat Eveque",
-            ),
-            GameObjectiveTemplate(
-                label="Reach Flying Waters",
+                data=dict(),
             ),
             GameObjectiveTemplate(
                 label="In Flying Waters, find and master the following Pictos: FWPICTOS",
                 data={
-                    "FWPCITOS": (self.area_2_pictos, 5),
+                    "FWPICTOS": (self.area_2_pictos, 5),
                 },
             ),
             GameObjectiveTemplate(
                 label="In Flying Waters, dual Noco, then buy out his secret shop",
-                weight=50000,
+                data=dict(),
+                weight=1,
             ),
             GameObjectiveTemplate(
                 label="In Flying Waters, find the following weapons: FWWEAPONS",
@@ -86,15 +87,15 @@ class ClairObscurExpedition33Game(Game):
             ),
             GameObjectiveTemplate(
                 label="In Flying Waters, assist Demineur Nevron, the second White Nevron",
+                data=dict(),
             ),
             GameObjectiveTemplate(
                 label="In Flying Waters, Defeat Goblu",
+                data=dict(),
             ),
             GameObjectiveTemplate(
                 label="Reach Ancient Sanctuary",
-                data={
-                    "FWWEAPONS": (self.area_2_weapons, 3),
-                },
+                data=dict(),
             ),
             GameObjectiveTemplate(
                 label="In Ancient Sanctuary, find and master the following Pictos: ASPICTOS",
@@ -116,21 +117,27 @@ class ClairObscurExpedition33Game(Game):
             ),
             GameObjectiveTemplate(
                 label="In Ancient Sanctuary, Defeat Ultimate Sakapatate",
+                data=dict(),
             ),
             GameObjectiveTemplate(
                 label="Gustave: Perform an Overcharge with 10 Charge",
+                data=dict(),
             ),
             GameObjectiveTemplate(
                 label="Lune: Use Immolation on a Marked foe",
+                data=dict(),
             ),
             GameObjectiveTemplate(
                 label="Lune: Consume Stains two turns in a row",
+                data=dict(),
             ),
             GameObjectiveTemplate(
                 label="Maelle: Use Percée on a Marked foe",
+                data=dict(),
             ),
             GameObjectiveTemplate(
                 label="Maelle: Use Spark while in Offensive Stance",
+                data=dict(),
             ),
             GameObjectiveTemplate(
                 label="In ZONE, defeat the Mime",
