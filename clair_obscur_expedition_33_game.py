@@ -41,12 +41,12 @@ class ClairObscurExpedition33Game(Game):
                 data={
                     "PROLOGUE1": (self.prologue, 5),
                 },
-                weight=10,
+                weight=1,
             ),
             GameObjectiveTemplate(
                 label="Before the Expedition commences, spend all three Festival Tokens",
                 data=dict(),
-                weight=50000,
+                weight=1,
             ),
             GameObjectiveTemplate(
                 label="In Spring Meadows, find and master the following Pictos: SMPICTOS",
@@ -77,7 +77,7 @@ class ClairObscurExpedition33Game(Game):
             GameObjectiveTemplate(
                 label="In Flying Waters, dual Noco, then buy out his secret shop",
                 data=dict(),
-                weight=10,
+                weight=1,
             ),
             GameObjectiveTemplate(
                 label="In Flying Waters, find the following weapons: FWWEAPONS",
