@@ -176,7 +176,7 @@ class KirbyAirRidersGame(Game):
         return riders
 
     @staticmethod
-    def machine(self) -> List[str]:
+    def machine() -> List[str]:
         return [
             "Warp Star",
             "Winged Star",
