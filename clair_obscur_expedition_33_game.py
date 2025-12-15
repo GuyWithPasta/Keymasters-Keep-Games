@@ -55,6 +55,13 @@ class ClairObscurExpedition33Game(Game):
                 },
             ),
             GameObjectiveTemplate(
+                label="Defeat the boss: BOSSES",
+                data={
+                    "BOSSES": (self.bosses, 1),
+                },
+                weight=2,
+            ),
+            GameObjectiveTemplate(
                 label="In Spring Meadows, aquire the following Weapons: SMWEAPS",
                 data={
                     "SMWEAPS": (self.area_1_weapons, 2),
@@ -62,10 +69,6 @@ class ClairObscurExpedition33Game(Game):
             ),
             GameObjectiveTemplate(
                 label="In Spring Meadows, assist Jar, the first White Nevron",
-                data=dict(),
-            ),
-            GameObjectiveTemplate(
-                label="In Spring Meadows, Defeat Eveque",
                 data=dict(),
             ),
             GameObjectiveTemplate(
@@ -90,14 +93,6 @@ class ClairObscurExpedition33Game(Game):
                 data=dict(),
             ),
             GameObjectiveTemplate(
-                label="In Flying Waters, Defeat Goblu",
-                data=dict(),
-            ),
-            GameObjectiveTemplate(
-                label="Reach Ancient Sanctuary",
-                data=dict(),
-            ),
-            GameObjectiveTemplate(
                 label="In Ancient Sanctuary, find and master the following Pictos: ASPICTOS",
                 data={
                     "ASPICTOS": (self.area_3_pictos, 3),
@@ -114,10 +109,6 @@ class ClairObscurExpedition33Game(Game):
                 data={
                     "FWWEAPONS": (self.area_2_weapons, 3),
                 },
-            ),
-            GameObjectiveTemplate(
-                label="In Ancient Sanctuary, Defeat Ultimate Sakapatate",
-                data=dict(),
             ),
             GameObjectiveTemplate(
                 label="Gustave: Perform an Overcharge with 10 Charge",
@@ -210,6 +201,15 @@ class ClairObscurExpedition33Game(Game):
             "Spring Meadows",
             "Flying Waters",
             "Ancient Sanctuary",
+        ]
+    def bosses() -> List[str]:
+        return [
+            "Eveque",
+            "Goblu",
+            "Ultimate Sakapatate",
+            "Chromatic Lancelier",
+            "Bourgeon",
+            "Chromatic Troubadour",
         ]
 
 # Archipelago Options
