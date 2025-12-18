@@ -169,7 +169,6 @@ class KirbyAirRidersGame(Game):
             "Noir Dedede",
         ]
 
-    @staticmethod    
     def riders_road_trip(self) -> List[str]:
         riders: List[str] = self.riders()
         riders.remove("Noir Dedede")
